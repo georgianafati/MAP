@@ -1,9 +1,9 @@
 FROM gcc:latest
 
-WORKDIR /usr/src/ProblemaMap22
+WORKDIR /usr/src/pbreg
 
 COPY . .
 
-RUN g++ -o ProblemaMap22 ProblemaMap22.cpp
+RUN g++ -o pbreg ProblemaMap22.cpp
 
-CMD ["./ProblemaMap22"]
+CMD ["./pbreg"]
